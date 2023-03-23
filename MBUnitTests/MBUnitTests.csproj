@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MindBoxTest\MindBox.csproj" />
+    <ProjectReference Include="..\MindBox\MindBox.csproj" />
   </ItemGroup>
 
 </Project>
