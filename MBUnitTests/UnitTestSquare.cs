@@ -8,8 +8,7 @@ namespace MBUnitTests
         [TestMethod]
         public void CircleTest()
         {
-            double result = Square.Circle(10);
-            Assert.AreEqual(Math.PI*100, result);
+            Assert.AreEqual(Math.PI*100, Square.Circle(10));
             Assert.ThrowsException<System.Exception>(()=>Square.Circle(-1));
         }
 
