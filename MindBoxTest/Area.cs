@@ -1,6 +1,6 @@
-﻿namespace MindBoxTest
+﻿namespace MindBox
 {
-    public class Square//можно наследовать и добавлять новые методы
+    public class Area//можно наследовать и добавлять новые методы
     {
         //Is It Right?
         public static double Circle(double radius) => radius>=0?Math.PI * Math.Pow(radius, 2):throw new Exception("Radius must be >= 0!");

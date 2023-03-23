@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MindBoxTest", "MindBoxTest\MindBoxTest.csproj", "{608F7A21-A024-4ABA-BA71-F90A567E27DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MindBox", "MindBoxTest\MindBox.csproj", "{608F7A21-A024-4ABA-BA71-F90A567E27DD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MBUnitTests", "MBUnitTests\MBUnitTests.csproj", "{5EE6388C-B3E6-429E-AD9B-88FFF2440FD9}"
 EndProject
