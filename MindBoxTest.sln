@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33502.453
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MindBoxTest", "MindBoxTest\MindBoxTest.csproj", "{608F7A21-A024-4ABA-BA71-F90A567E27DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MBUnitTests", "MBUnitTests\MBUnitTests.csproj", "{5EE6388C-B3E6-429E-AD9B-88FFF2440FD9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{608F7A21-A024-4ABA-BA71-F90A567E27DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{608F7A21-A024-4ABA-BA71-F90A567E27DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{608F7A21-A024-4ABA-BA71-F90A567E27DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{608F7A21-A024-4ABA-BA71-F90A567E27DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EE6388C-B3E6-429E-AD9B-88FFF2440FD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EE6388C-B3E6-429E-AD9B-88FFF2440FD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EE6388C-B3E6-429E-AD9B-88FFF2440FD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EE6388C-B3E6-429E-AD9B-88FFF2440FD9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B8A064C-92FF-42BC-B2E8-C2BE98043B42}
+	EndGlobalSection
+EndGlobal
