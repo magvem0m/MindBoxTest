@@ -49,3 +49,9 @@
         public static double GetArea(double[,] crds) => Gauss(crds);
     }
 }
+
+/*
+    SELECT "Product"."product_name", 
+    FROM Products AS "Product"
+    LEFT JOIN Categories AS "Categories" ON "Product"."category_id" = "Categories"."id";
+ */
