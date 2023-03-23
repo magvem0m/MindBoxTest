@@ -21,7 +21,7 @@
             return Math.Sqrt(p*(p-side1)*(p-side2)*(p-side3));
         }
 
-        public static double Gauss(double[,] crds)//[[x1, y1], [x2, y2], [x3, y3]...]
+        public static double Gauss(double[,] crds)//[[x1, y1], [x2, y2], [x3, y3]...] и фигура не должна быть самопересекающейся
         {
             if (crds.GetLength(0) < 3)
                 throw new Exception("Length of coordinates array must be >=3");
@@ -36,8 +36,10 @@
 
             for( int i = 0; i < crds.GetLength(0) - 1; i++)
             {
-                lace1 += lace1 + crds[i,0] * crds[i + 1,1];
-                lace2 += lace2 + crds[i,1] * crds[i + 1,0];
+                lace1 += lace1 + crds[i,0] * crds[i + 1, 1];
+                Console.WriteLine($"{crds[i, 0]}+{crds[i + 1, 1]}");
+                lace2 += lace2 + crds[i,1] * crds[i + 1, 0];
+                Console.WriteLine($"{crds[i, 1]}+{crds[i + 1, 0]}");
             }
 
             return Math.Abs(lace1 - lace2)/2;
