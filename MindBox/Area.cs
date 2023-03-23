@@ -51,7 +51,7 @@
 }
 
 /*
-    SELECT "Product"."product_name", 
+    SELECT "Product"."name", "Categories"."name" 
     FROM Products AS "Product"
     LEFT JOIN Categories AS "Categories" ON "Product"."category_id" = "Categories"."id";
  */
