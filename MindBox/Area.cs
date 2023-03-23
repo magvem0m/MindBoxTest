@@ -37,9 +37,7 @@
             for( int i = 0; i < crds.GetLength(0) - 1; i++)
             {
                 lace1 += lace1 + crds[i,0] * crds[i + 1, 1];
-                Console.WriteLine($"{crds[i, 0]}+{crds[i + 1, 1]}");
                 lace2 += lace2 + crds[i,1] * crds[i + 1, 0];
-                Console.WriteLine($"{crds[i, 1]}+{crds[i + 1, 0]}");
             }
 
             return Math.Abs(lace1 - lace2)/2;
