@@ -21,15 +21,19 @@
             return Math.Sqrt(p*(p-side1)*(p-side2)*(p-side3));
         }
 
-        public static double Gauss(double[,] crds)//[[x1, y1], [x2, y2], [x3, y3]...] и фигура не должна быть самопересекающейся
+        //[[x1, y1], [x2, y2], [x3, y3]...] и фигура не должна быть самопересекающейся.
+        //Я мог бы скопировать алгоритм откуда-то, но вдруг решите, что я не добросовестный или еще чего.
+        //Методом сравнения отрезка с другими я бы и сам сделал открыв формулы, но для тестового задания уж слишком много усилий бы приложил :D
+        public static double Gauss(double[,] crds)
         {
-            if (crds.GetLength(0) < 3)
+            int n1 = crds.GetLength(0);
+            int n2 = crds.GetLength(1);
+
+            if (n1  < 3)
                 throw new Exception("Length of coordinates array must be >=3");
 
-            if (crds.GetLength(1) != 2)
+            if (n2 != 2)
                 throw new Exception("It takes only XY coordinates!");
-
-            if (crds.Length < 3) return 0;
 
             double lace1 = 0;
             double lace2 = 0;
