@@ -38,7 +38,7 @@
             double lace1 = 0;
             double lace2 = 0;
 
-            for( int i = 0; i < crds.GetLength(0) - 1; i++)
+            for( int i = 0; i < n1 - 1; i++)
             {
                 lace1 += lace1 + crds[i,0] * crds[i + 1, 1];
                 lace2 += lace2 + crds[i,1] * crds[i + 1, 0];
